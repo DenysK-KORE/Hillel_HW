@@ -167,3 +167,12 @@ print('Преобразование в строку:', "".join(simple_list))
 # "Hello {} world".format(name) или тоже самое но более нового вида формат
 # f"Hello {name} world"
 
+name = 'Vasia'
+age = 34
+d = 10
+
+print(f'{name} age is {age} and d={d}')
+
+first_name = "John"
+last_name = "Doe"
+print("Hello {} {}, hope you're well!".format(first_name, last_name))
