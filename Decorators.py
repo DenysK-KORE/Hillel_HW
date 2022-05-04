@@ -2,17 +2,22 @@
 # Написать свой декоратор который будет проверять остаток
 # от деления числа 100 на результат работы функции.
 
-def my_decorator(func):
-    def wrap():
-        print(f'Calling func {func}')
-        func()
-        print(f'Finc {func} finished its works')
-    return wrap
-
-def integer_remainder():
-
-
-
+# def integer_remainder(f):
+#     def wrapper(r):
+#         if 100 % f == 0:
+#             print('----------------')
+#             f(r)
+#             print('----------------')
+#         else:
+#             print('Some text')
+#     return wrapper
+#
+# @integer_remainder
+# def func_1(numb):
+#     r = numb * 100
+#     return print('Result:', r)
+#
+# f = func_1()
 
 # Если остаток от деления = 0, вывести сообщение "We are OK!», иначе «Bad news guys, we got {}» остаток от деления.
 
